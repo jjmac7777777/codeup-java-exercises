@@ -1,23 +1,69 @@
+//CONSOLE IO EXERCISES
+
 import java.util.Scanner;
 
 public class ConsoleExercises {
 
     public static void main(String[] args) {
-
+//#1 COPY CODE INTO MAIN METHOD
         double pi = 3.14159;
         System.out.println(pi);
 
         System.out.println("The value of pi is approximately 3.14");
 
+        //EXPLORE THE SCANNER CLASS
+
+//        Scanner scanner = new Scanner(System.in);
+//        System.out.printf("Enter Integer:");
+//        int userInput = scanner.nextInt();
+//        System.out.println(userInput);
+
+//ENTERING A NON-INTEGER:
+//#1
+//        Exception in thread "main" java.util.InputMismatchException
+//        at java.base/java.util.Scanner.throwFor(Scanner.java:939)
+//        at java.base/java.util.Scanner.next(Scanner.java:1594)
+//        at java.base/java.util.Scanner.nextInt(Scanner.java:2258)
+//        at java.base/java.util.Scanner.nextInt(Scanner.java:2212)
+//        at ConsoleExercises.main(ConsoleExercises.java:14)
+//
+//        Process finished with exit code 1
+
+//#2
+// Prompt a user to enter 3 words, and store each of them in a separate variable.
+// Then, display them back in the console, each on a newline.
+
+//        Scanner scanner = new Scanner(System.in);
+//        System.out.printf("Enter four words:\n one \n two \n three \n four \n");
+//        int userInput = scanner.nextInt();
+//        System.out.println(userInput);
+
+        //Enter three words:
+        //one
+        //two
+        //three
+
+        //What happens if you enter less than 3 words?
+        //Enter two words:
+        //one
+        //two
+
+        //What happens if you enter more than 3 words?
+        //Enter four words:
+        //one
+        //two
+        //three
+        //four
+
+//#3
+
+//Prompt a user to enter a sentence, then store that sentence in a String
+//variable using the next method. Then, display that sentence back to the user.
+
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Enter Integer:");
+        System.out.printf("Enter a sentence: What's the weather like today?");
         int userInput = scanner.nextInt();
         System.out.println(userInput);
-
-
-
-
-
 
 
 
