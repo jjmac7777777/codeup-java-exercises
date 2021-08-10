@@ -1,73 +1,46 @@
-//public class Person {
-//
-//    private String name;
-//    private String firstName;
-//    private String lastName;
-//    private String address;
-//    private String userName;
-//
-//    }
-// public Person (String name){
-//    this.name = name;
-//     System.out.println("Yes");
-// }
-//    // The constructor method
-//    public Person(String personFirstName, String personLastName,
-//                  String personAddress, String personUsername)
-//    {
-//        firstName = personFirstName;
-//        lastName = personLastName;
-//        address = personAddress;
-//        userName = personUsername;
-//    }
-//
-//    Person dave = new Person("Dave");
-//    dave.firstName = "Dave";
-//    dave.lastName = "Jones";
-//    dave.address = "4118 Winterfell Pass";
-//    dave.userName = "DJ123";
-//
-//    public Person() {
-//
-//    }
-//
-//
-//    // A method to display the state of the object to the screen
-//    public void displayPersonDetails()
-//    {
-//        System.out.println("Name: " + firstName + " " + lastName);
-//        System.out.println("Address: " + address);
-//        System.out.println("Username: " + username);
-//
-//    }
-//
-//    public String getName(firstName, lastName){
-////TODO: return the person's name
-//        return name;
-//
-//    public void setName(String name){
-////TODO: change the name property to the passed value
-//    this.name = name;
-//
-//    }
-//    public void sayHello(name){
-////TODO: print a message to the console using the person's name
-//    System.out.println("Hello, " + name);
-//
-//    }
-//
-//    public static void main(String[] args){
-//
-//
-//
-//
-//
-//
-//        }
-//
-//
-////The class should have a constructor that accepts a `String` value and sets
-////the person's name to the passed string.
-////
-////Create a `main` method on the class that creates a new `Person` object and
-////tests the above methods.
+
+public class Person {
+
+    private String name;
+
+    public Person(String name) {
+        this.name = name;
+    }
+
+    public String getName() {
+        //TODO: return the person's name
+        return name;
+    }
+
+    public void setName(String name) {
+        //TODO: change the name property to the passed value
+        this.name = name;
+    }
+
+    public void sayHello() {
+        //TODO: print a message to the console using the person's name
+        System.out.println("Hello, " + name);
+    }
+
+    public static void main(String[] args) {
+        Person Jack = new Person("Jack McCloskey");
+
+        System.out.println(Jack.getName());
+        Jack.sayHello();
+        Jack.setName("John");
+        System.out.println(Jack.getName());
+        Jack.sayHello();
+
+
+
+        Person person1 = new Person("Ulysses");
+        Person person2 = person1;
+        System.out.println(person1.getName());
+        System.out.println(person2.getName());
+        person2.setName("Athena");
+        System.out.println(person1.getName());
+        System.out.println(person1.getName());
+
+    }
+}
+
