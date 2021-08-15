@@ -62,19 +62,8 @@ public class ConsoleExercises {
 
         Scanner scanner = new Scanner(System.in);
         System.out.printf("Enter a sentence: What's the weather like today?");
-        int userInput = scanner.nextInt();
+        String userInput = scanner.nextLine();
         System.out.println(userInput);
-
-
-
-
-
-
-
-
-
-
-
 
 
     }
