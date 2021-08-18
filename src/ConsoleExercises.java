@@ -55,7 +55,7 @@ public class ConsoleExercises {
         //three
         //four
 
-//#3
+//#3 Explore the Scanner Class
 
 //Prompt a user to enter a sentence, then store that sentence in a String
 //variable using the next method. Then, display that sentence back to the user.
@@ -66,8 +66,23 @@ public class ConsoleExercises {
         System.out.println(userInput);
 
 
+//#4    Area of Codeup Classrooms
+
+        System.out.println("Can you tell me the dimensions of Codeup Classrooms?");
+
+        double width = Double.parseDouble(scanner.nextLine());
+        System.out.print("Give us a width: ");
+
+
+        double length = Double.parseDouble(scanner.nextLine());
+        System.out.println("Give us a length: ");
+
+
+        double area = length * width;
+        double perimeter = (width * 2) + (length * 2);
+
+        System.out.println("Area: " + area);
+        System.out.println("Perimeter: " + perimeter);
     }
 
-
-    }
-
+}
