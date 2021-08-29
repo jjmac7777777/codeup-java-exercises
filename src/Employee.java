@@ -1,4 +1,4 @@
-class Employee extends Person1 {
+class Employee extends Person {
     private final String department;
 
     public Employee(String name, String department) {
