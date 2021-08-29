@@ -1,29 +1,22 @@
-//public class ServerNameGenerator {
-//
-//    public static void main(String[] args) {
-//
-//        final String[] noun = {"Fred", "Jane", "Richard Nixon", "Miss America", "Tom Brady", "Jack Black",
-//        "Mark Twain", "Dorian Gray", "Ry Bred", "Son of Sam"};
-//        Random random = new Random();
-//        int index = random.nextInt(noun.length);
-//        System.out.println(noun[index]);
-//
-//
-//
-//
-//
-//    }
-//}
-//
-////We are going to build a server name generator. Create a class inside of src named ServerNameGenerator,
-//// and follow the specs below.
-////
-////Create two arrays whose elements are strings: one with at least 10 adjectives, another with at least 10 nouns.
-////Create a method that will return a random element from an array of strings.
-////Add a main method, and inside of your main method select and random noun and adjective and hyphenate
-//// the combination and display the generated name to the user.
-////Example Output
-////
-////
-////Here is your server name:
-////dedicated-photon
+import java.util.Random;
+
+public class ServerNameGenerator {
+
+    public static String[] adjectives = {"hilarious", "boring", "glib", "persevering", "odd", "even",
+            "gargantuan", "outmoded", "clean", "clinical"};
+    public static String[] nouns = {"Hermano", "Trevor Mullet", "Wizard of OZ", "Book of Eli", "Oscar De La Hoya",
+            "Don 'John' Juan", "Mark Twain", "Dorian Gray", "Rye Bread", "Son of Sam"};
+
+
+    public static void main(String[] args) {
+        System.out.println("SERVER NAME:");
+        System.out.println(getServer(adjectives) + "-" + getServer(nouns));
+    }
+
+    public static String getServer(String[] choices) {
+        Random random = new Random();
+        int randomNumber = random.nextInt(choices.length);
+        return choices[randomNumber];
+    }
+
+}
