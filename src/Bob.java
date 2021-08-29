@@ -25,7 +25,7 @@ public class Bob {
         } else if (userResponse.isEmpty()) {
             System.out.println("Fine. Be that way!");
         } else {
-            System.out.println("Whatever.");
+            System.out.println("Uhhhhhhhhh!!!.");
         }
 
         System.out.println("Would you like to say something else to Bob?");
