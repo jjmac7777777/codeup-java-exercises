@@ -18,7 +18,7 @@ public class Practice {
 
     }
     public static void getMallardDetails(Mallard mallard) {
-        System.out.println("The mallard " + mallard.getName() + " flies at a speed of " + mallard.getFlySpeed());
+        System.out.println("The mallard " + mallard.getName() + " flies at a speed of " + mallard.getFlySpeed() + " mph");
 
     }
 

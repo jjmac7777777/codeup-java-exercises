@@ -20,6 +20,7 @@ public class Mallard extends Duck implements Quackable {
     }
 
     public void setFlySpeed(int flySpeed) {
+
         this.flySpeed = flySpeed;
     }
 }

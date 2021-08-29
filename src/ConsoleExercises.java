@@ -13,10 +13,10 @@ public class ConsoleExercises {
 
         //EXPLORE THE SCANNER CLASS
 
-//        Scanner scanner = new Scanner(System.in);
-//        System.out.printf("Enter Integer:");
-//        int userInput = scanner.nextInt();
-//        System.out.println(userInput);
+        Scanner scanner = new Scanner(System.in);
+        System.out.printf("Enter Integer:");
+        int userInput = scanner.nextInt();
+        System.out.println(userInput);
 
 //ENTERING A NON-INTEGER:
 //#1
@@ -33,10 +33,9 @@ public class ConsoleExercises {
 // Prompt a user to enter 3 words, and store each of them in a separate variable.
 // Then, display them back in the console, each on a newline.
 
-//        Scanner scanner = new Scanner(System.in);
-//        System.out.printf("Enter four words:\n one \n two \n three \n four \n");
-//        int userInput = scanner.nextInt();
-//        System.out.println(userInput);
+
+        System.out.printf("Enter four words:\n one \n two \n three \n four \n");
+        System.out.println(userInput);
 
         //Enter three words:
         //one
@@ -60,9 +59,8 @@ public class ConsoleExercises {
 //Prompt a user to enter a sentence, then store that sentence in a String
 //variable using the next method. Then, display that sentence back to the user.
 
-        Scanner scanner = new Scanner(System.in);
+
         System.out.printf("Enter a sentence: What's the weather like today?");
-        String userInput = scanner.nextLine();
         System.out.println(userInput);
 
 
