@@ -18,7 +18,7 @@ public class HighLow {
 
             answer = generator.nextInt(100) + 1; // randomly generates a number between 1-100
 
-            do // loops through game until user gets answer correct or quits
+            do
             {
                 count++;
 
@@ -65,7 +65,6 @@ public class HighLow {
             System.out.print("Thanks for playing!");
         }
     }
-
 
 
 
