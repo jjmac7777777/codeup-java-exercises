@@ -70,7 +70,7 @@
 //        Object o = theNumberThree;
 //        int three = (int) o;
 //////Exception in thread "main" java.lang.ClassCastException: class java.lang.String cannot be cast to class java.lang.Integer (java.lang.String and java.lang.Integer are in module java.base of loader 'bootstrap')
-//////	at HelloPolaris.main(HelloPolaris.java:71)
+//////	at HelloPolaris.main(HelloWord.java:71)
 ////
 //////        int three = (int) "three";
 //////java: incompatible types: java.lang.String cannot be converted to int
