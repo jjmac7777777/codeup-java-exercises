@@ -55,4 +55,9 @@ public class Student {
     public void setStudentName(String studentName) {
         this.studentName = studentName;
     }
+
+    public String getName() {
+
+        return null;
+    }
 }
